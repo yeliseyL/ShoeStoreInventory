@@ -2,6 +2,11 @@
 <layout xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!--
+    Simple FrameLayout is used as a container for a ScrollView and FAB. It's much more
+    simpler and faster in this case.
+   -->
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
